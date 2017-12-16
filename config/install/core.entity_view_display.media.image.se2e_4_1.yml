@@ -7,7 +7,6 @@ dependencies:
     - media_entity.bundle.image
     - responsive_image.styles.de2e_4_1
   module:
-    - ds
     - responsive_image
 id: media.image.se2e_4_1
 targetEntityType: media
