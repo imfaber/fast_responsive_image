@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains fast_responsive_image.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function fast_responsive_image_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the fast_responsive_image module.
+    case 'help.page.fast_responsive_image':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides a set of responsive image styles and view modes for media') . '</p>';
+      return $output;
+
+    default:
+  }
+}

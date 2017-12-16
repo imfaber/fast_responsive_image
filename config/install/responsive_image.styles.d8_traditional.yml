@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.d8_traditional
+id: d8_traditional
+label: 'Display 8 responsive traditional 4:3'
+image_style_mappings: {  }
+breakpoint_group: fast_responsive_image
+fallback_image_style: d8_traditional

@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.d8_square
+    - image.style.d9_square
+id: d9_square
+label: 'Display 9 responsive square 1:1'
+image_style_mappings:
+  -
+    breakpoint_id: fast_responsive_image.screen-xs-max
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: d8_square
+  -
+    breakpoint_id: fast_responsive_image.screen-sm-min
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: d9_square
+breakpoint_group: fast_responsive_image
+fallback_image_style: d8_square

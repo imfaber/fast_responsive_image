@@ -1,0 +1,12 @@
+name: Fast responsive image
+type: module
+description: Provides an image media bundle configured with a preset of responsive image styles and view modes
+core: 8.x
+package: Images
+dependencies:
+  - blazy
+  - focal_point
+  - image
+  - responsive_image
+  - media_entity
+  - media_entity_image
