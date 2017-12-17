@@ -1,3 +1,3 @@
-# Fast responsive image
+# Media entity responsive image
 
-Drupal 8 module Provides an image media bundle configured with a preset of responsive image styles and view modes
+Drupal 8 module that provides a media entity of type image configured with a preset of responsive image styles and view modes.
