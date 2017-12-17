@@ -1,14 +1,14 @@
 {
-  "name": "drupal/media_entity_responsive_image",
+  "name": "imfaber/media_entity_responsive_image",
   "type": "drupal-module",
   "description": "Provides an image media bundle configured with a preset of responsive image styles and view modes",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "https://www.drupal.org/project/media_entity_responsive_image",
+  "homepage": "https://github.com/imfaber/media_entity_responsive_image",
   "minimum-stability": "dev",
   "support": {
-    "issues": "https://www.drupal.org/project/issues/media_entity_responsive_image",
-    "source": "http://cgit.drupalcode.org/media_entity_responsive_image"
+    "issues": "https://github.com/imfaber/media_entity_responsive_image/issues",
+    "source": "https://github.com/imfaber/media_entity_responsive_image.git"
   },
   "require": {
     "drupal/core": "~8.1",
