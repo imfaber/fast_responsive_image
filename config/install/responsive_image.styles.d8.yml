@@ -6,5 +6,5 @@ dependencies:
 id: d8
 label: 'Display 8 responsive auto'
 image_style_mappings: {  }
-breakpoint_group: fast_responsive_image
+breakpoint_group: media_entity_responsive_image
 fallback_image_style: d8

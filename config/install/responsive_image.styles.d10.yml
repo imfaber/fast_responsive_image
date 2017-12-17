@@ -8,19 +8,19 @@ id: d10
 label: 'Display 10 responsive auto'
 image_style_mappings:
   -
-    breakpoint_id: fast_responsive_image.screen-xs-max
+    breakpoint_id: media_entity_responsive_image.screen-xs-max
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: d8
   -
-    breakpoint_id: fast_responsive_image.screen-sm-min
+    breakpoint_id: media_entity_responsive_image.screen-sm-min
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: d10
   -
-    breakpoint_id: fast_responsive_image.screen-md-min
+    breakpoint_id: media_entity_responsive_image.screen-md-min
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: d10
-breakpoint_group: fast_responsive_image
+breakpoint_group: media_entity_responsive_image
 fallback_image_style: d8

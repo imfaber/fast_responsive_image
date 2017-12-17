@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains media_entity_responsive_image.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function media_entity_responsive_image_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the media_entity_responsive_image module.
+    case 'help.page.media_entity_responsive_image':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides an image media bundle configured with a preset of responsive image styles and view modes') . '</p>';
+      return $output;
+
+    default:
+  }
+}

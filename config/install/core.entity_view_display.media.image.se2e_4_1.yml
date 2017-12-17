@@ -19,14 +19,6 @@ content:
     settings:
       responsive_image_style: de2e_4_1
       image_link: ''
-    third_party_settings:
-      ds:
-        ft:
-          id: default
-          settings:
-            lb: ''
-            lb-col: false
-            classes: {  }
     type: responsive_image
     region: content
 hidden:

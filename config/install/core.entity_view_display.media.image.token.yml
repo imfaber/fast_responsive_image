@@ -8,21 +8,6 @@ dependencies:
   module:
     - image
     - responsive_image
-third_party_settings:
-  ds:
-    layout:
-      id: onecol
-      path: profiles/varbase/modules/contrib/panels/layouts/layout_onecol
-      library: layout_discovery/onecol
-      disable_css: false
-      entity_classes: all_classes
-      settings: {  }
-    regions:
-      middle:
-        - field_image
-        - name
-        - uid
-        - created
 id: media.image.token
 targetEntityType: media
 bundle: image

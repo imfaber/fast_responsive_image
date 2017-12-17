@@ -1,34 +1,34 @@
-fast_responsive_image.screen-xs-max:
+media_entity_responsive_image.screen-xs-max:
   label: screen-xs-max
   mediaQuery: 'all and (max-width: 767px)'
   weight: 1
   multipliers:
     - 1x
-fast_responsive_image.screen-sm-min:
+media_entity_responsive_image.screen-sm-min:
   label: screen-sm-min
   mediaQuery: 'all and (min-width: 768px)'
   weight: 1
   multipliers:
     - 1x
-fast_responsive_image.screen-sm-max:
+media_entity_responsive_image.screen-sm-max:
   label: screen-sm-max
   mediaQuery: 'all and (max-width: 991px)'
   weight: 1
   multipliers:
     - 1x
-fast_responsive_image.screen-md-min:
+media_entity_responsive_image.screen-md-min:
   label: screen-md-min
   mediaQuery: 'all and (min-width: 992px)'
   weight: 1
   multipliers:
     - 1x
-fast_responsive_image.screen-md-max:
+media_entity_responsive_image.screen-md-max:
   label: screen-md-max
   mediaQuery: 'all and (max-width: 1199px)'
   weight: 1
   multipliers:
     - 1x
-fast_responsive_image.screen-lg-min:
+media_entity_responsive_image.screen-lg-min:
   label: screen-lg-min
   mediaQuery: 'all and (min-width: 1200px)'
   weight: 1
